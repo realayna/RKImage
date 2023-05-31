@@ -126,14 +126,6 @@ int main() {
         double nonDuplicatedExecutionTime = duration_cast<nanoseconds>(nonDuplicatedEndTime - nonDuplicatedStartTime).count();
         nonDuplicatedExecutionTimes.push_back(nonDuplicatedExecutionTime);
 
-        // cout << "Size: " << size << " x " << size << endl;
-        // cout << "Duplicated: " << (duplicated ? "Yes" : "No") << endl;
-        // cout << "Duplicated Execution time: " << duplicatedExecutionTime << " milliseconds" << endl;
-        // cout << "Non-duplicated: " << (nonDuplicated ? "Yes" : "No") << endl;
-        // cout << "Non-duplicated Execution time: " << nonDuplicatedExecutionTime << " nanoseconds" << endl;
-        // cout << endl;
-   
-     
     }
     
     cout << "Execution Times:" << endl;
